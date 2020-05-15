@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hangman</title>
+    <link href="style/style.css" type="text/css" rel="stylesheet">
+</head>
+<body onkeydown="keypressed(event,this)">
+    <div class="main">
+        <h2>HANGMAN GAME</h2>
+        <canvas id="hungman">
+
+        </canvas>
+        <div id="msg"></div>
+        <div>Score: <span id="score">0</span></div>
+        <div>Lives: <span id="liveremaning">0</span></div>
+        <button onclick="resetGame()">Restart Game</button>
+
+        <div class="gameboard">
+            <div class="hintTitle">
+                <h3 id="hintId"></h3>
+            </div>
+            <div class="ginput" id="ginput">
+
+            </div>
+            <div class="ghint" id="inputkeys">
+            </div>
+        </div>
+    </div>
+
+<script src="script/main.js"></script>
+</body>
+</html>

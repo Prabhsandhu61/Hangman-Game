@@ -1,0 +1,91 @@
+.main {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: #f2f2f2;
+    margin: 10px 10px;
+}
+
+.main h2{
+    text-align: center;
+    font-size: 50px;
+}
+.gameboard {
+    background: gray;
+    margin: auto;
+    width: 50%;
+    min-height: 300px;
+    top: 25%;
+    position: absolute;
+    left: 25%;
+}
+
+.ginput {
+    width: 99.2%;
+    min-height: 145px;
+    background: #fff;
+    margin: 2px;
+}
+
+.ghint {
+    width: 99.2%;
+    min-height: 145px;
+    background: #f2f2f2;
+    margin: 2px;
+}
+
+.ginput input:first-child {
+    margin-left: 12px;
+}
+
+.ginput input {
+    display: block;
+    float: left;
+    height: 50px;
+    width: 38px;
+    margin: 47px 6px;
+    border: 0px;
+    border-bottom: 1px solid gray;
+    font-size: 50px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+
+.ghint input {
+    display: block;
+    float: left;
+    height: 36px;
+    width: 34px;
+    margin: 13px 6px;
+    border: 0px;
+    border-bottom: 1px solid gray;
+    font-size: 34px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+
+canvas#hungman {
+    position: absolute;
+    top: 45%;
+    background: lightseagreen;
+    height:250px ;
+    width: 350px;
+}
+
+div#msg {
+    background: #c0f321d4;
+    color: #3535ef;
+    width: 300px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+h3#hintId {
+    color: #080808;
+    font-size: 28px;
+    font-variant-caps: petite-caps;
+}
